@@ -45,3 +45,13 @@ button {
 .add:hover {
     color: #FD7272;
 }
+
+span {
+    background-color: black;
+    border: 3px double goldenrod;
+    margin: 7px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}

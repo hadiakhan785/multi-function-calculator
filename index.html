@@ -33,7 +33,7 @@
             </button>
         </div>
 
-        <div class="alert alert-success" role="alert">
+        <div class="alert alert-success" id="output" role="alert">
             Result = --
         </div>
 
@@ -42,12 +42,12 @@
         </div>
 
         <div id="buttons">
-            <button type="button" class="btn btn-info">Sum</button>
-            <button type="button" class="btn btn-info">Average</button>
-            <button type="button" class="btn btn-info">Product</button>
+            <button type="button" class="btn btn-info" onclick="sum()">Sum</button>
+            <button type="button" class="btn btn-info" onclick="avg()">Average</button>
+            <button type="button" class="btn btn-info" onclick="calcProduct()">Product</button>
         </div>
 
-        <button type="button" class="btn btn-light clear-btn">Clear All</button>
+        <button type="button" class="btn btn-light clear-btn" onclick="clean()">Clear All</button>
     </div>
 
 </body>
